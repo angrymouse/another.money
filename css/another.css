@@ -157,6 +157,7 @@ a.header-link {
 	background-position:bottom center;
 	background-repeat:no-repeat;
 	background-size:2579px auto;
+	background-color: #FFD369;
 }
 
 .arrow {
@@ -166,8 +167,8 @@ a.header-link {
 	margin-left:2px;
 }
 
-.phone {
-	background:url(../img/phone.png) no-repeat;
+.arweave {
+	background:url(../img/arweave.png) no-repeat;
 	background-size:auto 315px;
 	background-position:top center;
 	min-height:315px;
@@ -298,7 +299,7 @@ a.header-link {
 }
 
 .footer {
-	background:#547ef4;
+
 	margin-top:-40px;
 }
 
@@ -342,12 +343,13 @@ a.header-link {
 
 .footer .links {
 	opacity:.9;
+	font-size: 22px;
 }
 
 .footer .links ul {
 	list-style-type:none;
 	padding:0 10px;
-	color:#fff;
+
 	opacity:.9;
 }
 
@@ -356,7 +358,8 @@ a.header-link {
 }
 
 .footer .links ul li a {
-	color:#fff;
+	
+	
 }
 
 body#secondary .header {
@@ -415,7 +418,7 @@ body#secondary .header {
 }
 
 @media screen and (min-width: 1200px) {
-	.phone {
+	.arweave {
 		background-size:360px auto;
 		min-height:480px;
 		background-position:center top;
@@ -423,7 +426,7 @@ body#secondary .header {
 }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
-	.phone {
+	.arweave{
 		background-size:330px auto;
 		min-height:500px;
 	}
@@ -468,4 +471,14 @@ body#secondary .header {
   }
 
   
+}
+.text-white{
+	text-align: center;
+	color:#f2f4f8
+}
+.text-white-h{
+	text-align: center;
+	color:#f2f4f8;
+	margin-right: 15px;
+	margin-left: 15px;
 }
