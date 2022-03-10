@@ -482,3 +482,7 @@ body#secondary .header {
 	margin-right: 15px;
 	margin-left: 15px;
 }
+.discord{
+	font-size: 18px;
+	color: #f2f4f8 !important;
+}
